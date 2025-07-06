@@ -59,5 +59,6 @@ Insurance-Premium-prediction/
 
 🙌 Author
 Vikash Bharti
-🔗 GitHub: neuroCodexAI
+      🔗 GitHub: neuroCodexAI
+
 Contact: https://neurocodexai.github.io/ 
