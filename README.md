@@ -40,7 +40,7 @@ Insurance-Premium-prediction/
 ├── app.py                    # Main FastAPI application file
 ├── Dockerfile                # Docker configuration for containerization
 └── requirements.txt          # Python dependencies for the project
-
+```
 
 ## 2. Create and Activate Virtual Environment
 - python -m venv venv
@@ -56,3 +56,8 @@ Insurance-Premium-prediction/
 ## 🌐 Live API
 - Deployed and accessible at:
 - 📍 http://16.170.238.125:8000/docs
+
+🙌 Author
+Vikash Bharti
+🔗 GitHub: neuroCodexAI
+Contact: https://neurocodexai.github.io/ 
