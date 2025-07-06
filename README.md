@@ -27,17 +27,20 @@ A **FastAPI-based Machine Learning API** that predicts insurance premium charges
 ---
 
 ## 📁 Project Structure
+
+```text
 Insurance-Premium-prediction/
 │
-├── pycache/ # Python cache
-├── config/ # Configuration settings (e.g., paths, params)
-├── model/ # Trained model and ML logic
-├── myenv/ # (Local virtual environment - should be in .gitignore)
-├── schema/ # Pydantic request/response models
+├── __pycache__/              # Python bytecode cache (auto-generated)
+├── config/                   # Configuration settings (e.g., file paths, constants)
+├── model/                    # Trained ML model, loading & prediction logic
+├── myenv/                    # Local virtual environment (should be in .gitignore)
+├── schema/                   # Pydantic models for request/response validation
 │
-├── app.py # Main FastAPI app
-├── Dockerfile # For containerization
-└── requirements.txt # Project dependencies
+├── app.py                    # Main FastAPI application file
+├── Dockerfile                # Docker configuration for containerization
+└── requirements.txt          # Python dependencies for the project
+
 
 ## 2. Create and Activate Virtual Environment
 - python -m venv venv
